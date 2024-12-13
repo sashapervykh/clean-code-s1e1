@@ -14,26 +14,27 @@
     >
   </head>
   <body>
-    <div class="aaa">
+    <header class="aaa">
       <img src="./eisenhower-matrix.jpg" alt="Image of the Eisenhower matrix">
       <a
         class="more_inf"
         href="https://goal-life.com/page/method/matrix-eisenhower"
       >Want more details?
       </a>
-    </div>
-    <div class="centered-main-page-element">
-      <p id="top-section-for-adding-element-to-list">
-        <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
+    </header>
+    <main class="centered-main-page-element">
+      <section id="top-section-for-adding-element-to-list">
+        <h3>Add Item</h3>
+        <p class="task-row-wrapper">
           <input
             id="new-task"
             class="task"
             type="text"
           >
           <button>Add</button>
-        </div>
-      </p>
+        </p>
+      </section>
+      <section>
       <h3>Todo</h3>
       <ul id="incomplete-tasks">
         <li>
@@ -59,6 +60,8 @@
           </button>
         </li>
       </ul>
+    </section>
+    <section>
       <h3>Completed</h3>
       <ul id="completed-tasks">
         <li>
@@ -71,7 +74,8 @@
           </button>
         </li>
       </ul>
-    </div>
+    </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
